@@ -1,0 +1,19 @@
+<html>
+<title>My test</title>
+<head>My webpage</head>
+<body style="background-color: #000000; color: #6439c6; text-align: center; font-size: 24">
+	<p id="para1">This is a paragraph</p>
+	<button type="button" onclick="document.getElementById('para1').innerHTML='Changed';">Tap here</button>
+	<form name="form" onsubmit='document.getElementById("para2").innerHTML="Form submitted";' method="post">
+		Enter your name: <input type="text" name="name" required>
+		<input type="submit" value="submit">
+	</form>
+	<p id="para2">Click on submit</p>
+	<h1>This is a H1 header</h1>
+	<script>
+		function submit(){
+			document.getElementById("para2").innerHTML="Form submitted";
+		}
+	</script>
+</body>
+</html>
