@@ -1,9 +1,11 @@
 p {
 		color : red ;
+		font: bold;
 	}
 	body {
 		color: red;
-		width: 600px;
+		font-style: bold;
+		background-color: lime; 
 	}
 	h1:hover, h2:hover, form:hover {
 		background-color: yellow;
