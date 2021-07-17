@@ -1,13 +1,42 @@
 p {
 		color : red ;
 		font: bold;
+		border: 2px solid black;
+		padding: 10px;
+		font-family: Arial Black;
 	}
 body {
 		color: red;
 		font-style: bold;
 		background-color: white; 
+		font-family: Arial Black;
+		background-image: ;
 	}
-h1:hover, h2:hover, form:hover {
+h1:hover, h2:hover, form:hover, div:hover {
 		background-color: yellow;
 		border: 2px solid black;
 	}
+div {
+	color: green;
+	font-style: bold;
+	font-family: Arial Black;
+	padding: 10px;
+	border: 2px dotted black;
+	width: 200px;
+	margin: auto;
+}
+form{
+	border: 2px solid black;
+	padding: 10px;
+	font-family: Arial Black;
+}
+body:Rick{
+	background-image:url("vimportant.gif");
+}
+a{
+	color : limegreen ;
+		font: bold;
+		border: 2px solid black;
+		padding: 10px;
+		font-family: Arial Black;
+}
