@@ -30,13 +30,23 @@ form{
 	padding: 10px;
 	font-family: Arial Black;
 }
-body:Rick{
-	background-image:url("vimportant.gif");
+.rick{
+	background-image: url(vimportant.gif);
 }
 a{
-	color : limegreen ;
-		font: bold;
-		border: 2px solid black;
-		padding: 10px;
-		font-family: Arial Black;
+	color : limegreen !important ;
+	font: bold;
+	border: 2px solid black;
+	padding: 10px;
+	font-family: Arial Black;
+	background-color: black;
+	margin: auto;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
